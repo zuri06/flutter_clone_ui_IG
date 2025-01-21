@@ -16,18 +16,6 @@ class _ShareProfileState extends State<ShareProfile> {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(56.0),
         child: AppBar(
-          automaticallyImplyLeading: false,
-          leading: IconButton(
-            onPressed: () {
-              Navigator.of(context).push(CupertinoPageRoute(
-                  builder: (context) => const ProfileScreenApp()));
-            },
-            icon: const Icon(
-              Icons.arrow_back_ios_new_rounded,
-              size: 22,
-            ),
-          ),
-          centerTitle: true,
           title: Container(
             alignment: Alignment.center,
             height: 25,
