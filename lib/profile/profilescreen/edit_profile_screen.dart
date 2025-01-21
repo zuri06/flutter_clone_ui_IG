@@ -14,18 +14,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        centerTitle: true,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.of(context).push(CupertinoPageRoute(
-                builder: (context) => const ProfileScreenApp()));
-          },
-          icon: const Icon(
-            Icons.arrow_back_ios_new_rounded,
-            size: 20,
-          ),
-        ),
         title: const Text(
           "Edit profile",
           style: TextStyle(
